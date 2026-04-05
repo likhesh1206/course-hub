@@ -1,0 +1,28 @@
+/* App — Likhesh | 24BCE0463 */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  flex: 1;
+}
+
+.footer {
+  background: var(--color-navy);
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  padding: var(--space-lg) var(--space-md);
+  font-size: 0.8rem;
+  margin-top: auto;
+}
+
+.footer strong {
+  color: var(--color-accent);
+}
+
+.footerHeart {
+  color: var(--color-danger);
+}
